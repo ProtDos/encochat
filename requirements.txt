@@ -1,4 +1,3 @@
 cryptography
 colorama
 pyfiglet
-getpass
