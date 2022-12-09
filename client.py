@@ -39,7 +39,7 @@ try:
         exit("[-] Server is offline.")
 
     if not os.path.isfile("username.txt"):
-        nickname = input(Fore.BLUE + "Enter your username: " + Style.RESET_ALL)
+        nickname = input(Fore.BLUE + "Create your username: " + Style.RESET_ALL)
         if "|||" in nickname:
             exit("Sorry, for technical reasons you can't have a '|||' in your nickname.")
         else:
