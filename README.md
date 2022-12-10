@@ -106,32 +106,28 @@ Other options
 
 *not possible at the moment*
 
+## Mobile app
+I am currently working on a mobile app to download. It would only be .apk (android users). I am not quite experienced in mobile app development, so don't excpect it to happen in near future. If you are a app developer, don't mind contacting me and collaborate.
+
 ## Disclaimer
 The username you used is shown in our server, but not at what time you connected or whom you wrote. We do not take any responsability for any activity made with this project. We cannot guarantee 100% security, when you find any vulnerabilities, please tell them us as soon as possible.
 
 ## TODO:
-* ~~In the settings menu: don't use exit function, crashes program directly without text.~~
-* ~~In the main menu: change order of numbers (make it before the text)~~
-* ~~fix ngrok connections~~
-* ~~make error message in chat when server goes down~~ (kinda)
-* implement update function
-* different colors for every user
-* ~~"Press a key to close the chat..."~~
-* ~~three tries for password~~
-* ~~comment every sequence in the code~~
-* split code in different files
-* ~~choose at opening between "login" and "register"~~
-* change variable names (for better understanding)
+* implement update function (if server is shut down, automatically check for new update and reinstall itself)
+* different colors for every user (for better understanding)
+* split code in different files (for better code understanding, not neccessary)
+* change variable names (for better code understanding)
 * create error logs (for testing purposes) (can be turned on in settings -> store in json format
-* make the key smaller
-* ~~make function to exit the chat~~
+* make the key smaller (to make it easier to use)
 * faster message sending
+Don't mind creating a pull request if you have done anything like this and want to collab.
 
 ## Contact
 
 Website: https://protdos.com
 
-Support forum: NaN
-
 Email: rootcode@duck.com
+
+## Thanks / Credits
+The code was made by myself, future collaborators will stand here soon...
 
