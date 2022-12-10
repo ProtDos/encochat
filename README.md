@@ -45,6 +45,25 @@ Coming soon...
 ## Disclaimer
 Coming soon...
 
+## TODO:
+* In the settings menu: don't use exit function, crashes program directly without text.
+* In the main menu: change order of numbers (make it before the text)
+* fix ngrok connections
+* make error message in chat when server goes down
+* implement update function
+* different colors for every user
+* "Press a key to close the chat..."
+* three tries for password
+* comment every sequence in the code
+* split code in different files
+* choose at openeing betwwwn "login" and "register"
+* change variable names (for better understanding)
+* create error logs (for testing purposes) (can be turned on in settings -> store in json format
+* make the key smaller
+* make function to exit the chat
+* faster message sending
+* 
+
 ## Contact
 
 Website: NaN
