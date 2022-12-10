@@ -1,6 +1,5 @@
-# encochat
-## beta phase
-## coming soon...
+# Encochat
+## beta phase, bugs may appear. The program is finished and ready to use.
 
 ## About
 High Secured Terminal Chat App
@@ -25,48 +24,112 @@ This is a terminal-based chat app that uses advanced encryption and security pro
 
 Make sure you have [Python 3.6](https://python.org/downloads) or later installed on your system.
 
-Clone the repository or download the zip file and extract it.
+Clone the repository or [download the zip file](https://github.com/ProtDos/encochat/archive/refs/heads/main.zip) and extract it.
 
 Install the required dependencies using the following command: `pip install -r requirements.txt`
 
 Run the app using the following command: `python chat.py`
 
+```bash
+git clone https://github.com/ProtDos/encochat
+cd encochat
+pip install -r requirements.txt
+python3 chat.py  # For Windows users: "py chat.py"
+```
+
 ## Usage
 
-To start the app, run the command `python chat.py` from the app directory.
+To start the app, run the command `python3 chat.py` from the app directory.
 Follow the on-screen instructions to set up your user account and generate your groups to get in touch with friends.
-To start a new chat session, enter number `1` in the main screen and choose a name. This will generate the key to chat with friends.
+To start a new chat session, enter number `1` in the main screen and choose a name for the group. This will generate the key to chat with friends.
 To send a message, simply type your message and press enter. The message will be encrypted and sent securely to the other users in the group.
-To view a list of available commands, use the help command in the main menu
+To view a list of available commands, check out the `Advanced Usage` tab.
 
 ## Advanced Usage
-Coming soon...
+### Creating an account:
+```bash
+python3 chat.py
+[your username] [enter]
+2 [enter]
+[your password] [enter]
+[your password again] [enter]
+```
+
+### Creating a room:
+```bash
+python3 chat.py
+1 [enter]
+[your password] [enter]
+1 [enter]
+[room name] [enter]
+```
+
+### Joining already used room:
+```bash
+python3 chat.py
+1 [enter]
+[your password] [enter]
+2 [enter]
+1 [enter]
+[the number of the group you see under (Your groups)] [enter]
+```
+
+### Joining new room:
+```bash
+python3 chat.py
+1 [enter]
+[your password] [enter]
+2 [enter]
+2 [enter]
+[the key of the group you got] [enter]
+```
+
+### Settings:
+Getting into the menu:
+```bash
+python3 chat.py
+1 [enter]
+[your password] [enter]
+3 [enter]
+```
+Changing password:
+
+*not possible at the moment*
+
+Changing username:
+```bash
+2 [enter]
+[your username] [enter]
+```
+
+Other options
+
+*not possible at the moment*
 
 ## Disclaimer
 The username you used is shown in our server, but not at what time you connected or whom you wrote. We do not take any responsability for any activity made with this project. We cannot guarantee 100% security, when you find any vulnerabilities, please tell them us as soon as possible.
 
 ## TODO:
-* In the settings menu: don't use exit function, crashes program directly without text.
-* In the main menu: change order of numbers (make it before the text)
-* fix ngrok connections
-* make error message in chat when server goes down
+* ~~In the settings menu: don't use exit function, crashes program directly without text.~~
+* ~~In the main menu: change order of numbers (make it before the text) ~~
+* ~~fix ngrok connections ~~
+* ~~make error message in chat when server goes down~~ (kinda)
 * implement update function
 * different colors for every user
-* "Press a key to close the chat..."
-* three tries for password
-* comment every sequence in the code
+* ~~"Press a key to close the chat..."~~
+* ~~three tries for password~~
+* ~~comment every sequence in the code~~
 * split code in different files
-* choose at openeing betwwwn "login" and "register"
+* ~~choose at opening between "login" and "register"~~
 * change variable names (for better understanding)
 * create error logs (for testing purposes) (can be turned on in settings -> store in json format
 * make the key smaller
-* make function to exit the chat
+* ~~make function to exit the chat~~
 * faster message sending
-* 
 
 ## Contact
 
-Website: NaN
+Website: https://protdos.com
 
 Support forum: NaN
 
