@@ -111,8 +111,8 @@ The username you used is shown in our server, but not at what time you connected
 
 ## TODO:
 * ~~In the settings menu: don't use exit function, crashes program directly without text.~~
-* ~~In the main menu: change order of numbers (make it before the text) ~~
-* ~~fix ngrok connections ~~
+* ~~In the main menu: change order of numbers (make it before the text)~~
+* ~~fix ngrok connections~~
 * ~~make error message in chat when server goes down~~ (kinda)
 * implement update function
 * different colors for every user
