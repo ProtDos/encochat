@@ -43,7 +43,7 @@ To view a list of available commands, use the help command in the main menu
 Coming soon...
 
 ## Disclaimer
-Coming soon...
+The username you used is shown in our server, but not at what time you connected or whom you wrote. We do not take any responsability for any activity made with this project. We cannot guarantee 100% security, when you find any vulnerabilities, please tell them us as soon as possible.
 
 ## TODO:
 * In the settings menu: don't use exit function, crashes program directly without text.
@@ -67,5 +67,8 @@ Coming soon...
 ## Contact
 
 Website: NaN
+
 Support forum: NaN
+
 Email: rootcode@duck.com
+
