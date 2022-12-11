@@ -12,6 +12,9 @@ This is a terminal-based chat app that uses advanced encryption and security pro
 * joining a room
 * creating a private key
 
+## Paid Version
+You want an exclusive, more secure app? Faster, better and more secure than ever? [Contact me](mailto:rootcode@duck.com) and get exclusive access.
+
 ## Features
 
 * Millitary encryption used for chat messages
