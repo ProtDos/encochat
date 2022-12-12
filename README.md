@@ -1,6 +1,9 @@
 # Encochat
 ## beta phase, bugs may appear. The program is finished and ready to use.
 
+## Read first
+This is a beta. I am working on a full version, website, host and executable. You can help improving this code, but this isn't the final code. The name will be changed too, because of encrochat.
+
 ## About
 High Secured Terminal Chat App
 
